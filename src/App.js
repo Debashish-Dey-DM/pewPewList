@@ -18,6 +18,7 @@ function App() {
       items.category === category
     );
     setGunItems(newItems);
+    console.log(newItems);
   };
   return (
     <main>    <div className="">
